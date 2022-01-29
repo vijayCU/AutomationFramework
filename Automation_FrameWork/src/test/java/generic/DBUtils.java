@@ -131,7 +131,7 @@ public class DBUtils {
 	return list.iterator();
 	}
 	
-	public void UpdateQueryforExcel(String path,String query)
+	public void UpdateQueryforExcelasDB(String path,String query)
 	{
 		try
 		{
@@ -146,5 +146,3 @@ public class DBUtils {
 		}
 	}
 }
-
-
